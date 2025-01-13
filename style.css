@@ -1,0 +1,53 @@
+/* body style */
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* 1) Add the listed styles to the "gallery" rule set */
+.gallery {
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+margin:20px;
+}
+
+/* 2) Add the listed styles to the "ramen-card" rule set */
+.ramen-card {
+width:325px;
+ border-style:solid;
+   border-width:2px;
+  border-color:saddlebrown;
+    text-align:center;
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+/* 3) Add the listed style to the "content" rule set */
+.content {
+  padding:10px;
+  
+}
+
+/* 4) Add the listed styles to the paragraphs in the "ramen-card" container */
+.ramen-card p {
+font-size:17px;
+  
+}
+
+/* 5) Add the listed styles to the h3 headings */
+.ramen-card h3 {
+margin-bottom:10px;
+  
+}
+
+/* 6) Add the listed styles to the images */
+.ramen-card img {
+width:90%;
+ border-style: solid;
+ border-width:2px; 
+  border-color:saddlebrown;
+  margin:10px;
+  
+}
